@@ -1,0 +1,223 @@
+body{
+    justify-content: center;}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+.h4{
+    display: inline-block;
+    text-align: center;
+}
+ul,li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: black;
+}
+button,.Request{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+}
+.pera{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pera2{
+    font-size: 20px;
+}
+.main2{
+    display: flex;
+    margin-left: 40px;
+}
+.image1{
+    margin-top: 20%;
+    margin-left: 50px;
+}
+.hh{
+    font-size: 80px;
+}
+
+button ,.Book{
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.working-process .accordion-item {
+    border: 1px solid var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    border-radius: 30px;
+    overflow: hidden;
+    /* padding: 20px; */
+    background-color: var(--body-color);
+  }
+  
+  .working-process .accordion-item .accordion-button {
+    background-color: var(--body-color);
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  
+  .working-process .accordion-item .accordion-collapse.collapse.show, .working-process .accordion-item .accordion-collapse.collapse.show {
+    background-color: var(--primary-color);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .working-process .accordion-item .accordion-button:not(.collapsed) {
+    color: var(--secondary-color);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--primary-color) !important;
+    box-shadow: none;
+  }
+  
+  .working-process .accordion-item .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .working-process .accordion-item .accordion-collapse .accordion-body {
+    padding: 20px 40px;
+  }
+  
+  .working-process .accordion-item .accordian-numbers {
+    font-size: 44px;
+    padding-right: 20px;
+  }
+  
+  .accordion-button::after {
+    background-image: none;
+    font-family: "Font Awesome 6 Free";
+    content: "\f068";
+    height: 35px;
+    width: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--body-color);
+    color: var(--secondary-color);
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "\f067"; 
+  }
+  
+  .working-process .accordion-item .collapsing {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .image{
+    margin-left:45px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .service-item{
+    display: flex;
+    margin-top: 50PX;
+    margin-left: 150PX;
+    margin-bottom: 50PX;
+  
+  }
+  .service-item P{
+    padding-left:25PX ;
+  }
+  
+  
+  
+  
+  
+  :root {
+    --primary-color: #B9FF66;
+    --secondary-color: #191A23;
+    --body-color: #F3F3F3;
+  }
+  .working-process .accordion-item {
+    border: 1px solid var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    border-radius: 30px;
+    overflow: hidden;
+    /* padding: 20px; */
+    background-color: var(--body-color);
+  }
+  
+  .working-process .accordion-item .accordion-button {
+    background-color: var(--body-color);
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  
+  .working-process .accordion-item .accordion-collapse.collapse.show, .working-process .accordion-item .accordion-collapse.collapse.show {
+    background-color: var(--primary-color);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .working-process .accordion-item .accordion-button:not(.collapsed) {
+    color: var(--secondary-color);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--primary-color) !important;
+    box-shadow: none;
+  }
+  
+  .working-process .accordion-item .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .working-process .accordion-item .accordion-collapse .accordion-body {
+    padding: 20px 40px;
+  }
+  
+  .working-process .accordion-item .accordian-numbers {
+    font-size: 44px;
+    padding-right: 20px;
+  }
+  
+  .accordion-button::after {
+    background-image: none;
+    font-family: "Font Awesome 6 Free";
+    content: "\f068";
+    height: 35px;
+    width: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--body-color);
+    color: var(--secondary-color);
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "\f067"; 
+  }
+  
+  .working-process .accordion-item .collapsing {
+    transition: all 0.3s ease-in-out;
+  }
+
+
+@media only screen and ( max-width:670;)
+{
+    .list{
+        display: none;
+    }
+    
+    .pera2{
+        display: inline;
+    }
+}
